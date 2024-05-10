@@ -1,0 +1,52 @@
+.loginContainer {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Adjust as needed */
+  }
+.login{
+    /* background-color: rgb(244, 246, 248); */
+    padding: 20px;
+    border-radius: 10px;
+    width: 500px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+.login h2{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 1.8rem;
+    font-weight: 550;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.formContainer label{
+   font-size: 1.2rem;
+   margin-top: 10px;
+}
+
+/* Input field styling */
+.formContainer input[type="text"],
+.formContainer input[type="password"] {
+    border: 2px solid rgb(206, 206, 206); /* Adjust border color */
+    background-color: transparent;
+    margin: 10px;
+    width: 330px;
+    outline: none;
+    color: black;
+    border-radius: 5px;
+    padding: 5px; /* Add padding for better appearance */
+}
+
+/* Placeholder styling */
+.formContainer input[type="text"]::placeholder,
+.formContainer input[type="password"]::placeholder {
+    color: rgb(128, 128, 128); /* Adjust placeholder color */
+    padding: 10px;
+}
+/* .loginBtn{
+    width: 100%;
+    background-color: rgb(45, 238, 45);
+} */
